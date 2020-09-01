@@ -5,7 +5,7 @@ Home: https://github.com/nion-software/experimental
 
 Package license: GPLv3
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Experimental tools package for Nion Swift.
 
