@@ -1,18 +1,18 @@
 {% set name = "nionswift-experimental" %}
-{% set version = "0.6.0" %}
+{% set version = "0.7.0" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: 601b4378b9a7cf4186d93b26745dbcb1a99789c8211b5568bc314de3ae89bf2c
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 1ed3c169f6c30d369483bf98a33a918e24f8665df71c370f2b0c5ae6c711d472
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -28,11 +28,11 @@ test:
     - nionswift_plugin.nion_experimental_tools
 
 about:
-  home: "https://github.com/nion-software/experimental"
+  home: https://github.com/nion-software/experimental
   license: GPLv3
   license_family: GPL3
   license_file: LICENSE
-  summary: "Experimental tools package for Nion Swift."
+  summary: Experimental tools package for Nion Swift.
   dev_url: https://github.com/nion-software/experimental
 
 extra:
