@@ -3,13 +3,13 @@ About nionswift-experimental
 
 Home: https://github.com/nion-software/experimental
 
-Package license: GPLv3
+Package license: GPL-3.0-or-later
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nionswift-experimental-feedstock/blob/master/LICENSE.txt)
 
 Summary: Experimental tools package for Nion Swift.
 
-
+Development: https://github.com/nion-software/experimental
 
 Current build status
 ====================
@@ -117,5 +117,5 @@ Feedstock Maintainers
 =====================
 
 * [@cmeyer](https://github.com/cmeyer/)
-* [@ericpre](https://github.com/ericpre/)
+* [@nion-gwyn](https://github.com/nion-gwyn/)
 
