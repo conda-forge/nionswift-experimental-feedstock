@@ -1,5 +1,5 @@
 {% set name = "nionswift-experimental" %}
-{% set version = "0.7.5" %}
+{% set version = "0.7.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7b86cd86f4ee7af9342f602ab26b3c0027860139c69162ccefcac91b6de8e85f
+  sha256: c5f9f897186b4ad0b50e439b3f52f0a86d3e00bc4e1cc417da4012ce78fe5d59
 
 build:
   number: 0
