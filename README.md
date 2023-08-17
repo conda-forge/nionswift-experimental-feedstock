@@ -1,11 +1,11 @@
-About nionswift-experimental
-============================
+About nionswift-experimental-feedstock
+======================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nionswift-experimental-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/nion-software/experimental
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nionswift-experimental-feedstock/blob/main/LICENSE.txt)
 
 Summary: Experimental tools package for Nion Swift.
 
